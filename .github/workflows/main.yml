@@ -29,9 +29,9 @@ jobs:
       - name: Publish .NET Core Project
         run: dotnet publish HomeWasm/HomeWasm.Client/HomeWasm.Client.csproj -c:Release -p:GHPages=true -o dist/Web --nologo
 
+         # token: ${{ secrets.GITHUB_TOKEN }}
       - name: Commit wwwroot to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           folder: dist/Web/wwwroot
