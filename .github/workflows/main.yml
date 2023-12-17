@@ -33,8 +33,8 @@ jobs:
         run: dotnet publish HomeWasm/HomeWasm.Client/HomeWasm.Client.csproj -c:Release -p:GHPages=true -o dist/Web --nologo
 
       # changes the base-tag in index.html from '/' to 'WebPortfolio' to match GitHub Pages repository subdirectory
-      - name: Change base-tag in index.html from / to WebPortfolio
-        run: sed -i 's/<base href="\/" \/>/<base href="\/WebPortfolio\/" \/>/g' dist/Web/wwwroot/index.html
+      #- name: Change base-tag in index.html from / to WebPortfolio
+      #  run: sed -i 's/<base href="\/" \/>/<base href="\/WebPortfolio\/" \/>/g' dist/Web/wwwroot/index.html
 
       #Publish static files to Github pages
       # token: ${{ secrets.GITHUB_TOKEN }}
