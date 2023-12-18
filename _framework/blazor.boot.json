@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "HomeWasm.Client",
   "resources": {
-    "hash": "sha256-4R1+1rrC3O/x0lhTq46O969um+qZ4m1w0NGtrZbuACA=",
+    "hash": "sha256-q+v+gE71d0i9YCVYUuFp3NMwItQytym4YqQwpBEWULM=",
     "jsModuleNative": {
       "dotnet.native.8.0.0.odnwfuzj54.js": "sha256-8su0dfqXmrR6nSS80nF/thphOx+y1Myj7Zbp7+5wV3Y="
     },
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "HomeWasm.Client.wasm": "sha256-fLFxpak/KPKH8i67sI2LrWqaehmG/8yt+p2yIzF9lO4=",
+      "HomeWasm.Client.wasm": "sha256-E41Mm06iJwbi9N8PtBvbGjhyNbOj4uampcZWRyRI9Io=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-0TZn32KyQNKDbcqzXTb8RwlkzEzPRUwyors/2UQIwz0=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-+gOTILdpS46o8zCcSZEf4VfeJO9uKM+COgMdhnEv0/8=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-6CSVaE9XrJT3RKb8gnOwrQsu1mksaPKShOHiXrOtSYo=",
