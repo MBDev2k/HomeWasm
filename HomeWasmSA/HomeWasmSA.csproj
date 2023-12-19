@@ -11,7 +11,16 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.0" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="8.0.0" />
     <PackageReference Include="PublishSPAforGitHubPages.Build" Version="2.1.1" />
+    <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.7" />
+  </ItemGroup>
+    
+  <ItemGroup>
+    <Reference Include="SqliteWasmHelper">
+      <HintPath>..\..\..\Repos\SqliteWasmHelper\SqliteWasmHelper\bin\Debug\net7.0\SqliteWasmHelper.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
