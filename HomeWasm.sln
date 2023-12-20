@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWasm", "HomeWasm\HomeWa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWasm.Client", "HomeWasm\HomeWasm.Client\HomeWasm.Client.csproj", "{E6F579DC-0BBA-4F72-9308-52E3D1DA6932}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWasmSA", "HomeWasmSA\HomeWasmSA.csproj", "{46524E08-EBC4-4AA5-8B1C-8716B4453747}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWasmSA", "HomeWasmSA\HomeWasmSA.csproj", "{46524E08-EBC4-4AA5-8B1C-8716B4453747}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
