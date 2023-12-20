@@ -19,9 +19,7 @@
   </ItemGroup>
     
   <ItemGroup>
-    <Reference Include="SqliteWasmHelper">
-      <HintPath>..\..\..\Repos\SqliteWasmHelper\SqliteWasmHelper\bin\Debug\net7.0\SqliteWasmHelper.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\SqliteWasmHelper\SqliteWasmHelper.csproj" />
   </ItemGroup>
 
 </Project>
