@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "HomeWasmSA",
   "resources": {
-    "hash": "sha256-KZIxZP6e0xxHNFCH1RG6fqp7Q1+X0MZM7Q/JnGw1HvM=",
+    "hash": "sha256-jPdD1A27id4PIiU/0HIq6nTqTA/zm4WJpypjN3uM3EA=",
     "jsModuleNative": {
       "dotnet.native.8.0.0.0ph7uk5dhc.js": "sha256-URIl2E1aLotn+/qbwcKtrjuzRCMtemp6TKbpSQxTiCk="
     },
@@ -17,7 +17,7 @@
       "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
     },
     "assembly": {
-      "HomeWasmSA.wasm": "sha256-UUGaEFu2SjWgnonUdpibEmgiPvsAHl50JgBxhUesZyE=",
+      "HomeWasmSA.wasm": "sha256-5PB6sDgx1x+iyr2ulDTPNfyXn2UJGTuOC+O6bjAJEIk=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-U/NMihzrxafyDuiN4haHJO9JTEJjmB0N1/la9ioS+nI=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-SzLeEfqdg4a49knCsNAsUwiZAcQnEeEi7bfRxP0p9sU=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-QRo9wN+gd5qqmZFiGyMTQbvqHCAt62nXolIZaL7npH4=",
@@ -44,7 +44,7 @@
       "SQLitePCLRaw.batteries_v2.wasm": "sha256-zN4m7yhqKX/jdsr6kzvYfi7YHv6wuucah5JHYkAL7kc=",
       "SQLitePCLRaw.core.wasm": "sha256-eS1YTLup3itY/s1KXAxVUJejRTUJDzzwd8aZoiD0zdM=",
       "SQLitePCLRaw.provider.e_sqlite3.wasm": "sha256-7xJ8/SZbk3AxcmhTcm7jAnfyrTJIv2O1VsuKJKoOQx4=",
-      "SqliteWasmHelper.wasm": "sha256-cGFVjmoY2vU8RZBhR7T85ppm7nCzo3MrP1Z58t1s/1Y=",
+      "SqliteWasmHelper.wasm": "sha256-IhZL23a75nwMjAKcVyl5gT+u+EzGm74IGiWjDXtcqo4=",
       "System.Collections.Concurrent.wasm": "sha256-jwFdBrOTrmV7Dt5PU94XLobd3NpwRx+fBdOHKJ7zRDA=",
       "System.Collections.Immutable.wasm": "sha256-Qt3tqZ0Nh+COEKY2nguWQUI7PuiwhEXHCfIzpFg465M=",
       "System.Collections.NonGeneric.wasm": "sha256-8xwfoMyyZpSUjzQTbPVwM4zPDIcL3XijiyE94c1OL6A=",
