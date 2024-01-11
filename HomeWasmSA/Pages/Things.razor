@@ -9,6 +9,8 @@
 <p>Type some thing:</p>
 <input @bind="newThing" disabled="@busy" />&nbsp;
 <button @onclick="@(async () => await AddThingAsync())" disabled="@busy">Add</button>
+<button @onclick="@(async () => await AddSeveralThingsAsync())" disabled="@busy">Add Several</button>
+<button @onclick="@(async () => await DeleteAllThingsAsync())" disabled="@busy">Delete All</button>
 
 @if (@busy)
 {
@@ -69,4 +71,34 @@ Download backup:
             await RefreshUiAsync();
         }
     }
+
+    private async Task AddSeveralThingsAsync()
+    {
+        using var ctx = await Factory.CreateDbContextAsync();
+
+        var nowStr = DateTime.Now.ToString("g");
+        for (int index1 = 0; index1 < 10; index1++)
+        {
+            ctx.Things.Add(new Thing { Name = $"newThing {index1} - {nowStr}" });
+        }
+
+        busy = true;
+        await ctx.SaveChangesAsync();
+        busy = false;
+
+        await RefreshUiAsync();
+    }
+
+    private async Task DeleteAllThingsAsync()
+    {
+        using var ctx = await Factory.CreateDbContextAsync();
+
+        busy = true;
+        await ctx.Things.ExecuteDeleteAsync();
+        await ctx.SaveChangesAsync();
+        busy = false;
+
+        await RefreshUiAsync();
+    }
+
 }
