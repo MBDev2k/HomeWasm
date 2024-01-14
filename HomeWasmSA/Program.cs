@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.EntityFrameworkCore;
 using SqliteWasmHelper;
+using MudBlazor.Services;
 
 namespace HomeWasmSA
 {
@@ -17,6 +18,8 @@ namespace HomeWasmSA
 
             builder.Services.AddSqliteWasmDbContextFactory<Models.ThingContext>(
                 opts => opts.UseSqlite("Data Source=things.sqlite3"));
+
+            builder.Services.AddMudServices();
 
             await builder.Build().RunAsync();
         }

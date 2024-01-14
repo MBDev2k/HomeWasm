@@ -8,9 +8,10 @@
 
 <p>Type some thing:</p>
 <input @bind="newThing" disabled="@busy" />&nbsp;
+<MudInput @bind-Value="newThing" disabled="@busy" Variant="Variant.Text"></MudInput>&nbsp;
 <button @onclick="@(async () => await AddThingAsync())" disabled="@busy">Add</button>
 <button @onclick="@(async () => await AddSeveralThingsAsync())" disabled="@busy">Add Several</button>
-<button @onclick="@(async () => await DeleteAllThingsAsync())" disabled="@busy">Delete All</button>
+<MudButton @onclick="@(async () => await DeleteAllThingsAsync())" disabled="@busy" Variant="Variant.Filled" Color="Color.Primary">Delete All</MudButton>
 
 @if (@busy)
 {
